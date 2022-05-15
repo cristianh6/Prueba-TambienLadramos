@@ -1,0 +1,23 @@
+<!-- <% .forEach(comida => { %>
+    <article class="index__products__product">
+        <a href="/products/detail/<%= comida.id %>"><img src="/images/<%= img[0] %>" alt=""></a>
+        <h4>
+            <%= comida.name %>
+        </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, saepe! Unde harum doloribus
+            ipsa
+            praesentium?</p>
+        <a href="#" class="index__products__product__more">VER MÁS</a>
+    </article>
+    <% }) %> -->
+
+    <script>
+		document.getElementById('image').addEventListener('change',(e)=> {
+			let reader = new FileReader();
+            reader.readAsDataURL(e.target.files[0])
+            reader.onload = () => {
+                document.getElementById('imgPreview').src = reader.result
+            }
+		})
+        
+	</script>

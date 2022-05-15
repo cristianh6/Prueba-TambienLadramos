@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-/* var productsRouter = require('./routes/products') */
+var productsRouter = require('./routes/products');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -22,34 +22,14 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 
 // RUTAS DINAMICAS //
 app.use('/', indexRouter);
-/* app.use('/products', productsRouter); */
+app.use('/products', productsRouter); 
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-/* app.get("/", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "partials", "index.html" ))
-}); */
-/* app.get("/login", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "login.html" ))
-});
-
-app.get("/productCart", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "productCart.html" ))
-});
-
-app.get("/services", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "services.html" ))
-});
-
-app.get("/register", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "register.html" )) // redirige a la pagina de register
-});
-app.get("/productDetail", (req,res) => {
-  res.sendFile(path.join(__dirname, "views", "productDetail.html" )) // redirige a la pagina de detalle_de_producto
-});  */
 
 // error handler
 app.use(function(err, req, res, next) {

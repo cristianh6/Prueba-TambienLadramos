@@ -1,30 +1,22 @@
 [
     {
        "id": 1,
-       "name": "Dog Chow 1",
-       "price": 1000,
-       "category": 1,
-       "img": "dog_chow_1.jpg"
+       "name": "perro",
+       "price": 1000
     },
     {
        "id": 2,
-       "name": "Dog Chow 2",
-       "price": 2000,
-       "category": 1,
-       "img": "dog_chow_2.jpg"
+       "name": "perro",
+       "price": 2000
     },
     {
        "id": 3,
        "name": "Cat pescado 1",
-       "price": 1800,
-       "category": 2,
-       "img": "cat_pescado_1.jpg"
+       "price": 1800
     },
     {
        "id": 4,
        "name": "Cat atun 2",
-       "price": 100,
-       "category": 2,
-       "img": "cat_atun_2.jpg"
+       "price": 500
     }
 ]

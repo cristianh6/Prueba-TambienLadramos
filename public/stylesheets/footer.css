@@ -1,37 +1,35 @@
 footer  {
+    margin-top: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-}
-.hero {
-    width: 100%;
-    background-color: #074f57;
-    background-image: url("../images/Logo.png");
-    color: white;
-    background-position-x: center;
-    background-position-y: center;
+    align-items: center;
+    background-image: url(/images/Logo.png);
+    background-color: rgba(250, 250, 250, 0);
+    background-position: center;
     background-size: cover;
-    justify-content: center;
-    align-items: center;
+    background-repeat: no-repeat;
     
 }
-.containera i, .containera a {
-    width: 100%;
+footer div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    text-decoration: none;
-    color: black;
-    
+    align-self: center;
 }
-.hero:hover, .containera i:hover, .containera a:hover {
-    background-blend-mode:multiply;
-    
+
+footer div a {
+    color: var(--amarillo);
 }
 
 
+footer div p {
+    color: white;
+    text-align: center;
+}
 
 
 

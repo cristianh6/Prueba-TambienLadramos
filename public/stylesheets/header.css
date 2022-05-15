@@ -6,11 +6,6 @@ ANIMACIONES
 /* 
 HEADER
 */
-
-body {
-    line-height: 1.5;
-}
-
 .home__header__contenedor {
     display: flex;
     position: relative;

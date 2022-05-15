@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path')
-const destacados = require('../src/data/products.json');
+const destacados = require('../data/products.json');
 
 
 module.exports = {
