@@ -14,7 +14,12 @@
 
                 <tr>
 
-                    <th>nombre</th>
+                    <th><% perros.forEach(element => { %>
+                        <h2><%= element.id %> </h2>
+                        <h2><%= element.name %> </h2>
+                        <h2><%= element.price %> </h2>
+                        <div><%= element.image %></div>
+                    <% }) %> </th>
                     <th>producto</th>
                     <th>detalles de producto</th>
                     <th>cantidad</th>
