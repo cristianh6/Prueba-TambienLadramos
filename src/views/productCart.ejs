@@ -8,7 +8,7 @@
 
     <nav class="tabla_carrito"> 
 
-        <h1 >carrito de compras</h1>
+        <h1>carrito de compras</h1>
     
             <table>
 
@@ -16,9 +16,9 @@
                 <tr>
             
                     <td><%= element.name %></td>
-                    <td><img src="<%= element.image %>" alt="" width="200px"></td>
+                    <td><img src="<%= element.image %>" alt="" style="width: 30%;"></td>
                     <td><%= element.description %></td>
-                    <td><%= element.price %></td> 
+                    <td><%= element.price %>$</td> 
 
                 </tr>
                 <% }) %>
@@ -27,9 +27,9 @@
                     <tr>
                 
                         <td><%= element.name %></td>
-                        <td><img src="<%= element.image %>" alt="" width="200px"></td>
+                        <td><img src="<%= element.image %>" alt="" style="width: 30%;"></td>
                         <td><%= element.description %></td>
-                        <td><%= element.price %></td> 
+                        <td><%= element.price %>$</td> 
     
                     </tr>
                     <% }) %>
@@ -38,35 +38,32 @@
 
     </nav>
 
-    <nav>
+    <h2>productos relacionados</h2>
 
-        <section class="productos_relacionados">
-            <h2>productos relacionados</h2>
+    <nav>
+        <section class="productos_relacionados" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
             <div>
                 <i class="fa-solid fa-circle-arrow-left fa-2x"></i>
-            </div>
+            </div>      
+                    <% perros.forEach(element => { %>
+                    <div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 25%; justify-content: center;">
+                        <a href="">
+                            <% if (perros.length < 7 ) { %>
+                                <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                                    <img src="<%= element.image %>" alt="" style="display: flex; flex-direction: row; justify-content: center; width: 20%;">   
+                                    <p><%= element.name %></p>  
+                                </div>                           
+                            <% } %> 
+                        </a>
+                    </div>
+                    <% }) %> 
+                    <div style="display: flex; flex-direction: row; width:fit-content;">
+                        <i class="fa-solid fa-circle-arrow-right fa-2x"></i>
+                    </div>          
+                </section>
 
-            <article>
-                <a href=""><p>producto</p>
-                    <img src="" alt="producto">
-                </a>
-            </article>
-
-            <article>
-                <a href=""><p>producto</p>
-                    <img src="" alt="producto">
-                </a>
-            </article>
-
-            <article>
-                <a href=""><p>producto</p>
-                    <img src="" alt="producto">
-                </a>
-            </article>
-
-            <div>
-                <i class="fa-solid fa-circle-arrow-right fa-2x"></i>
-            </div>
+            </nav>
+            
             
             <nav class="ver-mas"> 
                 <p>si quieres ver mas precione aqui porfavor> <a href="">ver más</a></p>
