@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="body_productos">
 
-<%- include('partials/head', {title: 'Home'}); %>
+<%- include('partials/head', {title: 'products'}); %>
 
 <body class="body_productos">
 
@@ -53,6 +53,18 @@
             <article>
             
                 <a href="products">
+                    <div>
+                        
+                             <% leerProductos.forEach(element => { %>
+                                <h2><%= element.id %></h2>
+                                <h2><%= element.name %></h2>
+                                <h2><%= element.price %></h2>
+                                <div><%= element.image %></div>
+                            <% }) %> 
+                        
+                        
+                    </div>
+                    
                     <img src="/images/productos_jpg/cat_pescado_1.jpg" alt="producto">
                     <p>producto-1</p>
                     <p>precio 000$</p>

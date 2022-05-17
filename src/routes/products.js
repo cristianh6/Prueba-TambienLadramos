@@ -2,12 +2,13 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 
-const { cart } = require('../controllers/productController');
+const { products, cart } = require('../controllers/productController');
 
 // /products 
 
 router
-        .get('/productCart', cart )
-        /* .get('/products/:id', getByCategory ) */
+        /* .get('/', products )  */
+         .get('/productCart', cart ) 
+        
 
 module.exports = router;

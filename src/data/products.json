@@ -1,20 +1,99 @@
 [
-    {
-       "id": 1,
-       "name": "dog-chow",
-       "description" : "lorem ipsum",
-       "image" : "gato-baño.jpg",
-       "category" : 1,
-       "price": 1000
-    },
-    {
-      "id": 2,
-      "name": "cat-chow",
-      "description" : "lorem ipsum",
-      "image" : "imagen",
-      "category" : 2,
-      "price": 1000
-
-   }
+   {
+  "id": 1,
+  "name": "Gemsbok",
+  "description": "Nulla facilisi.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 1216
+}, 
+   {
+  "id": 2,
+  "name": "Phalarope, red",
+  "description": "Nulla ac enim.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 7209
+}, 
+   {
+  "id": 3,
+  "name": "Common grenadier",
+  "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 8675
+}, 
+   {
+  "id": 4,
+  "name": "White-throated toucan",
+  "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 7861
+}, 
+   {
+  "id": 5,
+  "name": "Kelp gull",
+  "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 4577
+}, 
+   {
+  "id": 6,
+  "name": "North American river otter",
+  "description": "Phasellus id sapien in sapien iaculis congue.",
+  "image": "/images/tiernitos_1.jpg",
+  "category": 1,
+  "price": 9038
+}, 
+   {
+  "id": 7,
+  "name": "Wallaby, euro",
+  "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 4209
+}, 
+   {
+  "id": 8,
+  "name": "Swamp deer",
+  "description": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 4884
+}, 
+   {
+  "id": 9,
+  "name": "Cobra, cape",
+  "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 5618
+}, 
+   {
+  "id": 10,
+  "name": "Rufous-collared sparrow",
+  "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 2675
+}, 
+   {
+  "id": 11,
+  "name": "Glossy ibis",
+  "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 3153
+}, 
+   {
+  "id": 12,
+  "name": "Rat, arboral spiny",
+  "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
+  "image": "/images/cat_atun_2.jpg",
+  "category": 2,
+  "price": 8953
+}
 ]
 
