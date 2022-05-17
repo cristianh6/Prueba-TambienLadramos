@@ -12,94 +12,27 @@
     
             <table>
 
-                <tr>
-
-                    <th>
-                        <% perros.forEach(element => { %>
-                        <h2><%= element.id %> </h2>
-                        <h2><%= element.name %> </h2>
-                        <h2><%= element.price %> </h2>
-                        <div><%= element.image %></div>
-                    <% }) %> 
-                    </th>
-                    <th>
-                        <% gatos.forEach(element => { %>
-                        <h2><%= element.id %> </h2>
-                        <h2><%= element.name %> </h2>
-                        <h2><%= element.price %> </h2>
-                        <div><%= element.image %></div>
-                    <% }) %> 
-                    </th>
-                    <th>producto</th>
-                    <th>detalles de producto</th>
-                    <th>cantidad</th>
-                    <th>precio unitario</th>
-                    <th>precio total</th>
-
-                </tr>
-
+                <% perros.forEach(element => { %>
                 <tr>
             
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>
-                    <td>cantidad</td>               
-                    <td>precio unitario</td>
-                    <td>precio total</td>
+                    <td><%= element.name %></td>
+                    <td><img src="<%= element.image %>" alt="" width="200px"></td>
+                    <td><%= element.description %></td>
+                    <td><%= element.price %></td> 
 
                 </tr>
-                <tr>
+                <% }) %>
 
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>               
-                    <td>cantidad</td>
-                    <td>precio unitario</td>               
-                    <td>precio total</td>
-
-            
-
-                </tr>
-                <tr>
-            
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>               
-                    <td>cantidad</td>
-                    <td>precio unitario</td>               
-                    <td>precio total</td>
-
-                </tr>
-                <tr>
-            
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>               
-                    <td>cantidad</td>
-                    <td>precio unitario</td>               
-                    <td>precio total</td>
-
-                </tr>
-                <tr>
-            
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>               
-                    <td>cantidad</td>
-                    <td>precio unitario</td>               
-                    <td>precio total</td>
-
-                </tr>
-                <tr>
-            
-                    <td>nombre</td>
-                    <td><img src="" alt="producto"></td>
-                    <td>detalles de producto</td>               
-                    <td>cantidad</td>
-                    <td>precio unitario</td>               
-                    <td>precio total</td>
-
-                </tr>
+                <% gatos.forEach(element => { %>
+                    <tr>
+                
+                        <td><%= element.name %></td>
+                        <td><img src="<%= element.image %>" alt="" width="200px"></td>
+                        <td><%= element.description %></td>
+                        <td><%= element.price %></td> 
+    
+                    </tr>
+                    <% }) %>
         
             </table>
 

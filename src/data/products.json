@@ -3,7 +3,7 @@
   "id": 1,
   "name": "Gemsbok",
   "description": "Nulla facilisi.",
-  "image": "/images/tiernitos_1.jpg",
+  "image": ["/images/gato-baño.jpg"],
   "category": 1,
   "price": 1216
 }, 
@@ -11,7 +11,7 @@
   "id": 2,
   "name": "Phalarope, red",
   "description": "Nulla ac enim.",
-  "image": "/images/tiernitos_1.jpg",
+  "image": "/images/gato-baño.jpg",
   "category": 1,
   "price": 7209
 }, 
@@ -19,7 +19,7 @@
   "id": 3,
   "name": "Common grenadier",
   "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
-  "image": "/images/tiernitos_1.jpg",
+  "image": "/images/perro-playa.jfif",
   "category": 1,
   "price": 8675
 }, 
